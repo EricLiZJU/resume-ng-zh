@@ -1,8 +1,8 @@
-PWD /Users/lihongyang/Desktop/LaTeX/resume-ng-zh
+PWD /Users/lihongyang/VSCodeProjects/resume-ng-zh
 INPUT /usr/local/texlive/2024/texmf.cnf
 INPUT /usr/local/texlive/2024/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2024/texmf-var/web2c/xetex/xelatex.fmt
-INPUT /Users/lihongyang/Desktop/LaTeX/resume-ng-zh/main.tex
+INPUT /Users/lihongyang/VSCodeProjects/resume-ng-zh/main.tex
 OUTPUT main.log
 INPUT ./resume.cls
 INPUT resume.cls
@@ -70,11 +70,8 @@ INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cf
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/ctex/ctex-c5size.clo
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/ctex/ctex-c5size.clo
-INPUT /System/Library/Fonts/Menlo.ttc
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-mac.def
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-mac.def
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-macold.def
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-macold.def
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-fandol.def
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-fandol.def
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/ctex/config/ctex.cfg
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/ctex/config/ctex.cfg
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty
@@ -270,6 +267,7 @@ INPUT /usr/local/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryplo
 INPUT /usr/local/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 INPUT /usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 INPUT /usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/ctex/ctex.sty
 INPUT ./main.aux
 INPUT ./main.aux
 INPUT main.aux
@@ -281,9 +279,6 @@ INPUT main.out
 INPUT ./main.out
 INPUT ./main.out
 OUTPUT main.out
-INPUT ./LIHONGYANG.jpg
-INPUT ./LIHONGYANG.jpg
-INPUT ./LIHONGYANG.jpg
 OUTPUT main.xdv
 INPUT main.aux
 INPUT ./main.out

@@ -1,12 +1,11 @@
 # Fdb version 4
-["xdvipdfmx"] 1734596782.24 "main.xdv" "main.pdf" "main" 1734596782.50018 0
-  "main.xdv" 1734596782.20462 30352 7644122550c13ddc580627f15a40b2b8 "xelatex"
+["xdvipdfmx"] 1743496603.11053 "main.xdv" "main.pdf" "main" 1743496603.32827 0
+  "main.xdv" 1743496603.07491 34400 5a3a707642cb75f5d8a96ac642402820 "xelatex"
   (generated)
   "main.pdf"
   (rewritten before read)
-["xelatex"] 1734596781.67123 "/Users/lihongyang/Desktop/LaTeX/resume-ng-zh/main.tex" "main.xdv" "main" 1734596782.49913 0
-  "/System/Library/Fonts/Menlo.ttc" 1729237377 2156036 ec05dfca6821d85440da0899493002c3 ""
-  "/Users/lihongyang/Desktop/LaTeX/resume-ng-zh/main.tex" 1733732398.67246 4979 291b973066f6e7bb49b749e32f3d042f ""
+["xelatex"] 1743496602.31269 "/Users/lihongyang/VSCodeProjects/resume-ng-zh/main.tex" "main.xdv" "main" 1743496603.32714 0
+  "/Users/lihongyang/VSCodeProjects/resume-ng-zh/main.tex" 1743496602.22401 5166 2cdb1ad6099eeff8899b443278584dab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
@@ -94,12 +93,12 @@
   "/usr/local/texlive/2024/texmf-dist/tex/latex/ctex/config/ctexbackend.cfg" 1657829894 1904 e0018b8e661c6b3e37f6e4a53f472d74 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/ctex/config/ctexopts.cfg" 1657829894 1291 feb9a19ff907013e8b3014895a284585 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/ctex/ctex-c5size.clo" 1657829894 2616 55a2684e4d887e5ce92d91108f2a8ed3 ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/ctex/ctex.sty" 1657829894 32650 ae1549373401d5cdb1fa16e45ec2f2c3 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/ctex/ctexart.cls" 1657829894 55219 69f0e9646f7b8e2f2ed4c5f3eef59f5c ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/ctex/ctexhook.sty" 1657829894 6505 33157acfddefdd8fd513e2308e07a435 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/ctex/ctexpatch.sty" 1657829894 8448 194e901f66d106236c72ef098b091d00 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/ctex/engine/ctex-engine-xetex.def" 1657829894 4760 0d5b13f0f595d738e80c6aea423c7997 ""
-  "/usr/local/texlive/2024/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-mac.def" 1657829894 1427 79eb29fe9bbec6915ffdfbe3a6667c81 ""
-  "/usr/local/texlive/2024/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-macold.def" 1657829894 2068 ddcbc0831d61a7afac273e7e344c11b3 ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-fandol.def" 1657829894 4554 a06551e6ead244098a98564198bab657 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-chinese-article.def" 1657829894 4622 4f152431881516d2a81822d98108b61f ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/enumitem/enumitem.sty" 1561238569 51697 f8f08183cd2080d9d18a41432d651dfb ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty" 1601931149 46845 3b58f70c6e861a13d927bff09d35ecbc ""
@@ -153,11 +152,10 @@
   "/usr/local/texlive/2024/texmf-dist/web2c/texmf.cnf" 1708706663 41649 5d6ae549fbbcb850a863f69aa41f3d10 ""
   "/usr/local/texlive/2024/texmf-var/web2c/xetex/xelatex.fmt" 1733719742 10850182 793f5d9324487aab7ccfba42e42f11c0 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "LIHONGYANG.jpg" 1733693410 394658 6c88a6e262ee9fd8a497c09c2a78e5aa ""
-  "main.aux" 1734596782.20409 750 10c0591b3b67db6d56292d2d30196543 "xelatex"
-  "main.out" 1734596782.20443 1508 97e28583ec61bc37d965c1c0bd360bf2 "xelatex"
-  "main.tex" 1733732398.67246 4979 291b973066f6e7bb49b749e32f3d042f ""
-  "resume.cls" 1733693410 3461 c4d0aaeffbeb7d2e852ad3d0ae72e5c1 ""
+  "main.aux" 1743496603.07436 707 5a52090a5baa0063de2e22454968f3d0 "xelatex"
+  "main.out" 1743496603.07474 1535 06971671ff7a8efeef237181193a05cb "xelatex"
+  "main.tex" 1743496602.22401 5166 2cdb1ad6099eeff8899b443278584dab ""
+  "resume.cls" 1743495509.1854 3476 5b392ce55dedf4aab5db8f3b876afce9 ""
   (generated)
   "main.aux"
   "main.log"

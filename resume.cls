@@ -5,7 +5,7 @@
 % Keep Quiet
 \PassOptionsToPackage{quiet}{xeCJK}
 \ProcessOptions\relax
-\LoadClass[zihao=5,autoindent=0.5em]{ctexart}
+\LoadClass[zihao=5,autoindent=0.5em,fontset=fandol]{ctexart}
 
 % Define paper size.
 \RequirePackage{geometry}
