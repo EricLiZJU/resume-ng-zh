@@ -1,11 +1,11 @@
 # Fdb version 4
-["xdvipdfmx"] 1743496603.11053 "main.xdv" "main.pdf" "main" 1743496603.32827 0
-  "main.xdv" 1743496603.07491 34400 5a3a707642cb75f5d8a96ac642402820 "xelatex"
+["xdvipdfmx"] 1743496676.42947 "main.xdv" "main.pdf" "main" 1743496676.65048 0
+  "main.xdv" 1743496676.39323 32028 d43a3e7bbab59d43858e583f0c8dbad7 "xelatex"
   (generated)
   "main.pdf"
   (rewritten before read)
-["xelatex"] 1743496602.31269 "/Users/lihongyang/VSCodeProjects/resume-ng-zh/main.tex" "main.xdv" "main" 1743496603.32714 0
-  "/Users/lihongyang/VSCodeProjects/resume-ng-zh/main.tex" 1743496602.22401 5166 2cdb1ad6099eeff8899b443278584dab ""
+["xelatex"] 1743496675.62852 "/Users/lihongyang/VSCodeProjects/resume-ng-zh/main.tex" "main.xdv" "main" 1743496676.64879 0
+  "/Users/lihongyang/VSCodeProjects/resume-ng-zh/main.tex" 1743496675.53731 5072 6a4e7a335253c27a0f5e38a48e9e2c24 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
@@ -152,9 +152,9 @@
   "/usr/local/texlive/2024/texmf-dist/web2c/texmf.cnf" 1708706663 41649 5d6ae549fbbcb850a863f69aa41f3d10 ""
   "/usr/local/texlive/2024/texmf-var/web2c/xetex/xelatex.fmt" 1733719742 10850182 793f5d9324487aab7ccfba42e42f11c0 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "main.aux" 1743496603.07436 707 5a52090a5baa0063de2e22454968f3d0 "xelatex"
-  "main.out" 1743496603.07474 1535 06971671ff7a8efeef237181193a05cb "xelatex"
-  "main.tex" 1743496602.22401 5166 2cdb1ad6099eeff8899b443278584dab ""
+  "main.aux" 1743496676.39264 707 5a52090a5baa0063de2e22454968f3d0 "xelatex"
+  "main.out" 1743496676.39304 1535 06971671ff7a8efeef237181193a05cb "xelatex"
+  "main.tex" 1743496675.53731 5072 6a4e7a335253c27a0f5e38a48e9e2c24 ""
   "resume.cls" 1743495509.1854 3476 5b392ce55dedf4aab5db8f3b876afce9 ""
   (generated)
   "main.aux"
