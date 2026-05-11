@@ -15,11 +15,24 @@
 \RequirePackage{enumitem}
 % Align all footnotes in a row.
 \RequirePackage[para]{footmisc}
-\RequirePackage[colorlinks=false,hidelinks,]{hyperref}
+\RequirePackage[
+  colorlinks=true,
+  linkcolor=ResumeBlue,
+  urlcolor=ResumeBlue,
+  citecolor=ResumeBlue
+]{hyperref}
 % For the usage of `\CJKunderline`.
 \RequirePackage{xeCJKfntef}
 % Provide colors.
 \RequirePackage{xcolor}
+% =========================
+% Resume color palette
+% =========================
+\definecolor{ResumeBlue}{HTML}{C55A11}
+\definecolor{ResumeDark}{HTML}{222222}
+\definecolor{ResumeGray}{HTML}{666666}
+\definecolor{ResumeLine}{HTML}{B8C7D9}
+\definecolor{ResumeLine}{HTML}{E6B089}
 
 % Clean pagestyle.
 \pagestyle{empty}
@@ -44,11 +57,11 @@
   section = {
     nameformat = {},
     number = {},
-    format = \noindent \zihao{4} \songti
+    format = \noindent \zihao{-4} \songti \color{ResumeBlue}
     \__resume_section_title_format:n,
     indent = -1em,
-    afterskip = 0.5em,
-    beforeskip = 0.2em,
+    afterskip = 0.45em,
+    beforeskip = 0.25em,
   },
 }
 
@@ -78,7 +91,11 @@
 
 % Predefined commands.
 \cs_new:Npn \__resume_section_title_format:n #1
-{#1 \vspace{3pt} \hrule}
+{
+  #1
+  \vspace{3pt}
+  {\color{ResumeLine}\hrule height 0.6pt}
+}
 
 
 % Add a contant info.
@@ -110,12 +127,12 @@
 \NewDocumentCommand{\ResumeTitle}{}
 {
   \begin{center}
-    \zihao{-2} \fangsong \g__resume_title_name_tl
+    {\zihao{-2}\fangsong\color{ResumeDark}\g__resume_title_name_tl}
   \end{center}
-  % Reduce the space.
-  \vspace{0cm}
+  \vspace{-0.1cm}
   \begin{center}
-    \seq_use:Nnnn \g__resume_contacts_seq {~|~} {~|~} {~|~}
+    {\zihao{5}\color{ResumeGray}
+    \seq_use:Nnnn \g__resume_contacts_seq {~|~} {~|~} {~|~}}
   \end{center}
 }
 
@@ -169,7 +186,7 @@
 % Render content with a hyperlink, marked with underline.
 \NewDocumentCommand{\ResumeUrl}{mm}
 {
-  \href{#1}{\CJKunderline{#2}}
+  \href{#1}{\textcolor{ResumeBlue}{#2}}
 }
 
 \endinput

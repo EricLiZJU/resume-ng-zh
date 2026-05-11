@@ -1,0 +1,139 @@
+% !TeX TS-program = xelatex
+
+\documentclass{resume}
+\ResumeName{李宏扬}
+
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{ctex}
+
+% 如需进一步压缩行距，可取消下面三行注释
+% \usepackage{enumitem}
+% \setlist[itemize]{itemsep=0.2em, topsep=0.2em, parsep=0em}
+% \renewcommand{\baselinestretch}{0.96}
+
+\begin{document}
+
+\fontsize{10pt}{12.4pt}\selectfont
+
+\ResumeContacts{
+  (+86)136-3436-6081,%
+  \ResumeUrl{mailto:zjulihongyang@gmail.com}{zjulihongyang@gmail.com},
+  \ResumeUrl{https://github.com/EricLiZJU}{github.com/EricLiZJU}%
+}
+
+\ResumeTitle
+
+\vspace{0.25cm}
+
+% =========================
+% 教育背景
+% =========================
+\section{\textbf{教育背景}}
+
+\ResumeItem
+[浙江大学 | 博士研究生]
+{浙江大学}
+[\textnormal{计算社会科学，公共管理学/计算机科学与技术 |} 管理学博士]
+[预计毕业于2028年6月]
+\begin{itemize}
+    \item 研究方向：\textbf{金融时间序列建模、深度学习预测模型、多智能体量化交易系统与可解释金融AI}。
+\end{itemize}
+
+\ResumeItem
+[哈尔滨工业大学 | 本科生]
+{哈尔滨工业大学}
+[\textnormal{自动化（控制科学与工程） |} 工学学士]
+[毕业于2023年6月]
+\begin{itemize}
+    \item 获中国大学生数学建模竞赛（CUMCM）国家级二等奖、哈工大英才学院荣誉学士学位、英才学院一等奖学金。
+\end{itemize}
+
+
+% =========================
+% 论文发表
+% =========================
+\section{\textbf{论文发表}}
+
+{\zihao{5}
+\noindent
+{\heiti \textbf{Exchange Rate Forecasting with Multi-scale Residual LSTM and Dual-task Learning}}
+\hfill
+2026.03
+
+\vspace{0.15em}
+
+\noindent
+{\zihao{-5}\textit{Expert Systems with Applications}（SCI一区 Top期刊）第一作者}
+
+\begin{itemize}
+    \item 提出\textbf{多尺度残差LSTM双任务学习框架}，融合宏观经济变量与SHAP解释，用于汇率预测和极端波动识别。
+    \item 在CNY、JPY、KRW、EUR、GBP上验证；高波动货币表现突出，JPY取得\textbf{RMSE=1.7985、MAPE=0.0108}，KRW取得\textbf{RMSE=8.5148、MAPE=0.0050}。
+    \item 极端波动分类在CNY/JPY/KRW上取得\textbf{ROC-AUC=0.8516--0.9221}，并通过多随机种子、滚动窗口与高波动压力测试验证稳健性。
+\end{itemize}
+}
+
+
+% =========================
+% 技术能力
+% =========================
+\section{\textbf{技术能力}}
+
+\begin{itemize}
+  \item \textbf{编程与工程}：Python, C/C++, SQL, Shell, Git, Linux, LaTeX；熟悉NumPy, pandas, scikit-learn, PyTorch。
+  \item \textbf{AI与智能体}：LSTM/TCN/Transformer, 多任务学习, 强化学习, 多智能体系统, LLM Agent, Agent Runtime, SHAP解释。
+  \item \textbf{量化研究}：CTA策略、期货回测、金融时间序列预测、因子建模、网格交易、组合风控、滑点与交易成本建模。
+\end{itemize}
+
+
+% =========================
+% 工作经历
+% =========================
+\section{\textbf{工作经历}}
+
+\ResumeItem
+{杭州镍之友信息科技有限公司}
+[量化策略研究与系统开发]
+[2025.12—2026.05]
+\begin{itemize}
+  \item 面向CTA与期货标的开发深度学习策略研究框架，完成行情处理、特征工程、模型训练、信号生成与回测评估模块。
+  \item 开发基于网格策略的全自动交易系统，实现参数配置、行情接入、自动下单、持仓管理、止盈止损与风控控制。
+  \item 在回测中纳入保证金、手续费、滑点、合约乘数、最小变动价位等期货交易约束，提高策略评估的实盘一致性。
+\end{itemize}
+
+\ResumeItem
+{拾贝投资有限公司}
+[量化策略研究员实习生（深度学习方向）]
+[2024.09—2024.12]
+\begin{itemize}
+  \item 参与股票收益预测与量化因子建模研究，围绕多因子输入、深度学习模型结构和训练方案开展实验。
+  \item 构建因子特征工程与模型评估流程，比较不同因子组合及学习算法对收益预测、风险暴露和组合表现的影响。
+\end{itemize}
+
+
+% =========================
+% 项目经历
+% =========================
+\section{\textbf{项目经历}}
+
+\ResumeItem
+{多智能体量化交易模型系统}
+[课题组项目第一完成人员]
+\begin{itemize}
+  \item 设计面向量化交易的\textbf{多智能体系统}，将行情感知、策略路由、策略执行、风控审批、模拟成交与反馈学习拆分为协作Agent。
+  \item 构建轻量级\textbf{Agent Runtime}调度框架，支持Agent注册、Topic调度、统一消息结构、执行记录与Trace回放。
+  \item 将策略封装为Capsule Agent，并通过Strategy Routing Agent根据市场状态、策略得分与探索权重动态选择交易策略。
+\end{itemize}
+
+\ResumeItem
+{基于多智能体的Polymarket预测市场套利模型}
+[课题组项目第一完成人员]
+\begin{itemize}
+  \item 面向Polymarket预测市场设计多智能体量化架构，覆盖事件发现、盘口感知、概率估计、策略路由、风险审批与模拟撮合。
+  \item 构建Probability State表示市场隐含概率、内部fair probability、edge、confidence与time-to-resolution，用于识别错误定价机会。
+  \item 设计Binary Parity、Multi-outcome Consistency、Probability Value等策略Capsule，并引入流动性、规则不确定性与事件相关性风险控制。
+\end{itemize}
+
+
+
+\end{document}

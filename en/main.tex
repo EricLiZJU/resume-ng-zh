@@ -1,0 +1,123 @@
+% !TeX TS-program = xelatex
+
+\documentclass{resume}
+\ResumeName{Hongyang Li}
+
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{ctex}
+\usepackage{fontspec}
+
+%\usepackage[none]{hyphenat}
+
+% English font
+\setmainfont{Times New Roman}
+
+\begin{document}
+
+\small
+
+\ResumeContacts{
+  (+86)136-3436-6081,%
+  \ResumeUrl{mailto:zjulihongyang@gmail.com}{zjulihongyang@gmail.com},
+  \ResumeUrl{https://github.com/EricLiZJU}{github.com/EricLiZJU}%
+}
+
+\ResumeTitle
+
+\vspace{0.20cm}
+
+% =========================
+% Education
+% =========================
+\section{\textbf{Education}}
+
+\noindent
+\textbf{Zhejiang University} 
+\textit{Ph.D. in Management, Computational Social Science} \hfill Expected Jun. 2028
+\begin{itemize}
+    \item Research interests: \textbf{financial time-series modeling, deep learning forecasting, multi-agent quantitative trading systems, and interpretable financial AI}.
+\end{itemize}
+
+\noindent
+\textbf{Harbin Institute of Technology} 
+\textit{B.Eng. in Automation, Control Science and Engineering} \hfill Jun. 2023
+\begin{itemize}
+    \item National Second Prize, China Undergraduate Mathematical Contest in Modeling; Honors Bachelor Degree, HIT Elite College; First-Class Scholarship.
+\end{itemize}
+
+
+% =========================
+% Publication
+% =========================
+\section{\textbf{Publication}}
+
+\noindent
+\textbf{Exchange Rate Forecasting with Multi-scale Residual LSTM and Dual-task Learning} \hfill 2026.03 \\
+\textit{Expert Systems with Applications} \hfill First Author, SCI Q1 Journal, 2026
+\begin{itemize}
+    \item Proposed a \textbf{multi-scale residual LSTM with dual-task learning} framework, integrating macroeconomic variables and SHAP explanations for exchange-rate forecasting and extreme-movement detection.
+    \item Evaluated the model on CNY, JPY, KRW, EUR, and GBP; achieved strong performance on volatile currencies, including \textbf{RMSE=1.7985, MAPE=0.0108} for JPY and \textbf{RMSE=8.5148, MAPE=0.0050} for KRW.
+    \item Achieved \textbf{ROC-AUC=0.8516--0.9221} for extreme-movement classification on CNY/JPY/KRW, with robustness validated by multi-seed experiments, rolling-window evaluation, and high-volatility stress tests.
+\end{itemize}
+
+
+% =========================
+% Skills
+% =========================
+\section{\textbf{Skills}}
+
+\begin{itemize}
+  \item \textbf{Quantitative Research}: CTA strategies, futures backtesting, financial time-series forecasting, factor modeling, grid trading, portfolio risk control, slippage and transaction-cost modeling.
+  \item \textbf{Programming \& Engineering}: Python, PyTorch, NumPy, pandas, scikit-learn, SQL, C/C++, Shell, Git, Linux, LaTeX.
+  \item \textbf{AI \& Agents}: LSTM, TCN, Transformer, multi-task learning, reinforcement learning, multi-agent systems, LLM agents, Agent Runtime, SHAP explainability.
+\end{itemize}
+
+
+% =========================
+% Professional Experience
+% =========================
+\section{\textbf{Professional Experience}}
+
+\noindent
+\textbf{Hangzhou Nizhiyou Information Technology Co., Ltd.} 
+\textit{Quantitative Strategy Research \& System Development} \hfill Dec. 2025 -- May 2026
+\begin{itemize}
+  \item Developed a deep-learning-based research framework for \textbf{CTA and futures strategies}, covering market data processing, feature engineering, model training, signal generation, and backtesting evaluation.
+  \item Built an \textbf{automated grid-trading system} with configurable strategy parameters, market data ingestion, automatic order execution, position management, take-profit/stop-loss logic, and risk controls.
+  \item Incorporated futures-specific constraints into backtesting, including margin requirements, commissions, slippage, contract multipliers, and minimum tick sizes, improving consistency between research backtests and live-trading assumptions.
+\end{itemize}
+
+\noindent
+\textbf{Shibei Investment Co., Ltd.}
+\textit{Quantitative Strategy Research Intern, Deep Learning} \hfill Sep. 2024 -- Dec. 2024
+\begin{itemize}
+  \item Conducted research on equity return prediction and quantitative factor modeling, experimenting with multi-factor inputs, deep learning architectures, and training schemes.
+  \item Built a factor feature-engineering and model-evaluation pipeline to compare the impact of different factor combinations and learning algorithms on return prediction, risk exposure, and portfolio performance.
+\end{itemize}
+
+
+% =========================
+% Selected Projects
+% =========================
+\section{\textbf{Selected Projects}}
+
+\noindent
+\textbf{Multi-Agent Quantitative Trading Model System} \hfill Research Group Project \\
+\textit{Lead Developer}
+\begin{itemize}
+  \item Designed a \textbf{multi-agent trading system} that decomposes the trading workflow into market perception, strategy routing, strategy execution, risk approval, simulated execution, and feedback learning agents.
+  \item Built a lightweight \textbf{Agent Runtime} supporting agent registration, topic-based scheduling, unified message structures, execution logs, and trace replay.
+  \item Encapsulated trading strategies as Capsule Agents and used a Strategy Routing Agent to dynamically select strategies based on market states, strategy scores, and exploration weights.
+\end{itemize}
+
+\noindent
+\textbf{Multi-Agent Arbitrage Model for Polymarket Prediction Markets} \hfill Research Group Project \\
+\textit{Lead Developer}
+\begin{itemize}
+  \item Designed a multi-agent arbitrage framework for Polymarket prediction markets, covering event discovery, CLOB order-book perception, probability estimation, strategy routing, risk approval, and paper execution.
+  \item Constructed a Probability State representation including market-implied probability, internal fair probability, edge, confidence, and time-to-resolution to identify mispricing opportunities.
+  \item Designed strategy capsules such as Binary Parity, Multi-outcome Consistency, and Probability Value, with liquidity, rule-uncertainty, and event-correlation risk controls.
+\end{itemize}
+
+\end{document}
